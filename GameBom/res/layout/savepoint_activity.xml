@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nen"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        tools:ignore="UseCompoundDrawables" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:src="@drawable/smile"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="10dp"
+            android:text="Xin chuc mung ban la nguoi chien thang.\nDat voi muc diem cao nhat!!!"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:ignore="RtlSymmetry,HardcodedText,RtlHardcoded,SpUsage" />
+    </LinearLayout>
+	<LinearLayout android:id="@+id/linear_layout"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:text="Ten"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="RtlHardcoded,HardcodedText" />
+
+        <EditText
+            android:id="@+id/edit_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="#DDD4E8"
+            android:ems="10"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="Nguyen Van A"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            tools:ignore="InefficientWeight,SpUsage,RtlHardcoded,TextFields,HardcodedText" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:text="Diem So:"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="RtlHardcoded,HardcodedText" />
+
+        <TextView
+            android:id="@+id/txt_diem"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="#DDD4E8"
+            android:gravity="center"
+            android:text="1000000"
+            android:textColor="#ff0250"
+            android:textSize="20dp"
+            tools:ignore="RtlHardcoded,HardcodedText,SpUsage" />
+    </LinearLayout>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/bt_luudiem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:background="@drawable/button_normal"
+            android:text="Luu Diem"
+            tools:ignore="RtlHardcoded,HardcodedText" />
+
+        <Button
+            android:id="@+id/bt_choilai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/button_normal"
+            android:text="Choi Lai"
+            tools:ignore="RtlHardcoded,HardcodedText" />
+
+        <Button
+            android:id="@+id/bt_xemdiem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/button_normal"
+            android:text="Xem Diem Cao"
+            android:visibility="gone"
+            tools:ignore="RtlHardcoded,HardcodedText" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/bt_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_normal"
+            android:text="Menu"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+</LinearLayout>

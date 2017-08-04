@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="25" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_tiles_2_2" tilewidth="32" tileheight="32">
+  <image source="../gfx/map_tiles_2_2.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="129" name="map_tiles_1_5" tilewidth="32" tileheight="32">
+  <image source="../gfx/map_tiles_1_5.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="257" name="map_titlle_boom" tilewidth="32" tileheight="32">
+  <image source="../gfx/map_titlle_boom.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="273" name="vatcan" tilewidth="32" tileheight="32">
+  <image source="../gfx/vatcan.png" width="32" height="32"/>
+ </tileset>
+ <layer name="nen" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NmZGBgHsWjeBSP4lE8rDAA3YObkNwFAAA=
+  </data>
+ </layer>
+ <layer name="cay" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NhZGBgoQNmA2JaAZgdIDATiKcSgVuJVDcTix1TiXRXK5HqYOaN2kGeHTCwkAANS4OE1MHAcAyr4WIHPfI5DDAzQjC1AD3KWxAGAIXpsUDcBQAA
+  </data>
+ </layer>
+ <layer name="vatcan" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACxNkZGAQpBOmFUA2n1buRmcT6y5S1I3aQZ4d2OQooZHNG25hNZzsoHU+pxWgV3kLAIc+A5jcBQAA
+  </data>
+ </layer>
+</map>

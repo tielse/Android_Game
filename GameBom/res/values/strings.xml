@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GameBom</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+	<string name="str_money_play">0</string>
+	<string name="str_money_mua">0</string>
+	<string name="str_sao">0</string>
+	<string name="str_lua">0</string>
+	<string name="str_mau">0</string>
+	<string name="str_boom">0</string>
+    <string name="play">Play
+
+
+
+</string>
+    <string name="infor">Information
+
+
+
+</string>
+    <string name="exit">Exit
+
+
+
+</string>
+    <string name="string_gameover">Bạn đã thua!!!
+
+
+
+</string>
+    <string name="string_thoat">Are you sure exit the game?
+
+
+
+</string>
+    <string name="string_thongtin">	    Chuyên Đề Tốt Nghiệp\n
+	    Game Boom Offline\n\n
+	    \tGVHD:Trần Thị Anh Thi\n
+	    Họ và Tên:\n
+	    \t\tLê Châu Thới-12149741\n
+	    \t\tĐào Minh Tín-12111111\n
+
+
+
+
+</string>
+    <string name="string_chienthang">	    Chúc mừng bạn đã vượt qua các ải\n
+	    Với các phiên bản tiếp theo mình sẽ hoàn thiện hơn nữa\n
+	    Chúc bạn luôn có thời gian vui vẻ\n
+		Xin chân thành cảm ơn
+
+
+
+</string>
+</resources>

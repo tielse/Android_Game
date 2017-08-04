@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/nen"
+        android:orientation="vertical"
+        tools:ignore="UselessParent" >
+
+        <ImageView
+            android:id="@+id/imageView_sound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:padding="10dp"
+            android:src="@drawable/sound_on"
+            tools:ignore="RtlHardcoded,ContentDescription" />
+
+        <ImageView
+            android:id="@+id/imageButton_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/exit"
+            android:src="@drawable/exit"
+            tools:ignore="RtlHardcoded,ContentDescription" />
+
+        <ImageView
+            android:id="@+id/imageButton_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/imageButton_infor"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/play"
+            android:src="@drawable/play"
+            tools:ignore="ContentDescription,RtlHardcoded" />
+
+        <ImageView
+            android:id="@+id/imageButton_vip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="58dp"
+            android:layout_toLeftOf="@+id/imageView_sound"
+            android:background="@drawable/vip"
+            android:src="@drawable/vip"
+            tools:ignore="ContentDescription,RtlHardcoded" />
+
+        <ImageView
+            android:id="@+id/imageButton_infor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="48dp"
+            android:layout_toLeftOf="@+id/imageButton_play"
+            android:background="@drawable/infor"
+            android:src="@drawable/infor"
+            tools:ignore="ContentDescription,RtlHardcoded" />
+    </RelativeLayout>
+
+</LinearLayout>
